@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>task- 10</title>
+<style>
+	body{
+		background-color:#E5DCAE;
+	}
+	#navigationBar{
+		background-color:#B08968;
+		text-align:center;
+		height:35px;
+		padding-top:13px;
+		margin:0 auto;
+		width:375px;
+		border-radius:10px
+	}
+	.navigationBar{
+		text-decoration:none;
+		background-color:#696578;
+		color:#E3E0D3;
+		font-size:20px;
+		padding:7px;
+		border:1px solid black;
+		border-radius:5px;
+	}
+	#navigationBar:hover{
+		width:380px;
+	}
+	.navigationBar:hover{
+		background-color:#E3E0D3;
+		color:#696578;
+		padding:13px;
+		border-radius:13px;
+	}
+	#container{
+		height:70%;
+		width:80%;
+		background-color:#DDB892;
+		margin:0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	#contentBox{
+		height:50%;
+		width:60%;
+		background-color:#9C6644;
+		margin:0 auto;
+		margin-top:50px;
+	}
+	button{
+	}
+	
+</style>
+</head>
+<body>
+	<div id="navigationBar">
+		<a class="navigationBar" href="#HOME">HOME</a>
+		<a class="navigationBar" href="#ABOUT">ABOUT</a>
+		<a class="navigationBar" href="#VISION">VISION</a>
+		<a class="navigationBar" href="#CONTACT">CONTACT</a>
+	</div>
+	<div id="container">
+		<div id="contentBox">
+			<form>
+			<label for="fname">First Name:</label>
+			<input type="text" id="fname"></input>
+			<br>
+			<label for="lname">Last Name:</label>
+			<input type="text" id="lname"></input>
+			
+			<h3>Enter your favourite subject</h3>
+			<input type="radio" class="subject"></input>
+			<label for="maths">Maths</label>
+			
+			<br>
+			<input type="radio" class="subject"></input>
+			<label for="dsa">DSA</label>
+			
+			<br>
+			<input type="radio" class="subject"></input>
+			<label for="oops">OOPS</label>
+			
+			<br>
+			<input type="radio" class="subject"></input>
+			<label for="science">Science</label>
+			
+			
+			</form>
+			
+			<button>Submit</button>
+		</div>
+	</div>
+</body>
+</html>
